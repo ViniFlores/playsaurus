@@ -18,7 +18,7 @@ const pings = ref([])
 
 onMounted(async () => {
   
-  fetch('http://34.133.54.49/').then(async r => {
+  fetch('https://playsaurus-api.godotjobs.dev/').then(async r => {
     pings.value = await r.json()
   })
 
