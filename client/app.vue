@@ -18,9 +18,9 @@ const pings = ref([])
 
 onMounted(async () => {
   
-  fetch('http://localhost:6868/').then(async r => {
+  fetch('http://34.133.54.49/').then(async r => {
     pings.value = await r.json()
-  }) //fetch("http://34.171.231.248/")
+  })
 
 })
 
