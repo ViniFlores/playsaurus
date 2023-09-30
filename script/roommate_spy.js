@@ -2,7 +2,7 @@
 
 setInterval(async () => {
   try {
-    await fetch('http://34.133.54.49/', {
+    await fetch('https://playsaurus-api.godotjobs.dev/', {
       method: "POST"
     })
     console.log("Ping sent successfully!")
